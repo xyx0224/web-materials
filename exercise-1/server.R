@@ -18,8 +18,8 @@ shinyServer(function(input, output) {
   
   # Render a plotly object that returns your map
   output$map <- renderPlotly({ 
-      return(build_map(joined_data, input$mapvar))
+    return(build_map(joined_data, input$mapvar))
   }) 
   
- 
+  
 })
