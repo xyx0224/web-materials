@@ -26,9 +26,9 @@ shinyUI(navbarPage(theme = shinytheme("sandstone"),
                            )
                          ),
                          tags$br(),
-                         HTML("<strong>Wow, I'm blown away!</strong>"),
+                         HTML("<strong>Insight</strong>"),
                          tags$div(class = "sidebar",
-                                  tags$blockquote("I'm a floating blockquote!"))
+                                  tags$blockquote("Wyoming: largest vote/population."))
                        ),
                        
                        # Main panel: display plotly map
@@ -37,8 +37,8 @@ shinyUI(navbarPage(theme = shinytheme("sandstone"),
                          tags$link(rel = "stylesheet", type = "text/css", href = "style.css"),
                          tags$div(class = "summary", checked = NA,
                                   tags$p("This map shows the electoral college votes by states. The darker
-               the color, the higher the number of votes. California has 
-                 the highest votes.")
+               the color, the greater the number of votes. California has 
+                 the greatest number of votes.")
                          ),
                          tags$a(href = "https://www.archives.gov/federal-register/electoral-college/about.html",
                                 "for more information")
